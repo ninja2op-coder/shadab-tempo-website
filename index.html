@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shadab Website</title>
+  <link rel="icon" type="image/jpg" href="./images/favicon.png"/>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link
+    rel="stylesheet"
+    href="./css/stylemobile.css"
+    media="screen and (max-width: 1146px)"
+  />
+  <link
+    rel="stylesheet"
+    href="./css/mobile.css"
+    media="screen and (max-width: 481px)"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&amp;display=swap"
+    rel="stylesheet "
+    crossorigin=""
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&amp;family=Trochut&amp;display=swap"
+    rel="stylesheet"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald&amp;display=swap"
+    rel="stylesheet"
+  />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3889530700763862"
+     crossorigin="anonymous"></script>
+</head>
+<body></body>
+<div class="top">
+  <header class="navbar">
+    <div class="logo">
+      <img id="logo" src="./images/favicon.png" alt="Sparko Websites" />
+    </div>
+
+
+    <div class="navigation">
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contacts">Contact</a></li>
+    </div>
+
+  </header>
+
+  <section class="container">
+    <h1 id="heading">WANT A WEBSITE? BUT DON'T HAVE ENOUGH BUDGET?</h1>
+    <div class="hpara">
+      <p>
+        Relax, you want a website don't have budget of hiring a developer
+      </p>
+      <p id="para">
+        don't worry we are here to make sure that you receive best quality
+        services in less money comparatively to others.
+      </p>
+    </div>
+    <div id="time"></div>
+  </section>
+</div>
+<h1 id="about">About Me</h1>
+<section class="boxes">
+  <div id="box-1">
+    <img class="boximg" id="img-1" src="./images/studyimage.png" alt="" /> 
+    <h1>Where do i study?</h1>
+    <p>
+       I did my 10+2 from <u>St.Pauls School in Jodhpur</u>. And furter doing my
+       bachleour  in<u>BCA</u> at <u>Lachoo Memorial College in Jodhpur</u>
+    
+    </p>
+  </div>
+  <div id="box-3">
+    <img class="boximg" src="./images/thinking.png" alt="" />
+    <h1>What do i like to do?</h1>
+    <p>
+      So mainly i like to play games at a professional level,
+      and also want to reprent india in E-sports.And also like to 
+      sing songs and make cover of the songs.
+    </p>
+  </div>
+  <div class="slide">
+    <div id="box-2">
+      <img class="boximg" id="img-2" src="./images/special.png" alt="" />
+      <h1>What makes me different!!</h1>
+      <p>
+        So i am a man of my words. Loyal and passinate toward my work.
+        hard-working and funny. 
+      </p>
+    </div>
+    <div id="box-4">
+      <img class="boximg" id="img-4" src="./images/error.png" alt="" />
+      <h1>Can&apos;t operate a website by your own?</h1>
+      <p>
+        Don&apos;t worry , We also provide you a service in which you don&apos;t
+        have to worry about the tech stuff we will play that role for you.
+      </p>
+    </div>
+  </div>
+</section>
+<section class="contact" id="contacts">
+  <h1>Contact Us</h1>
+  <div class="newletter">
+    <form name="contact" method="POST" data-netlify="true">
+      <input
+        id="name"
+        type="text"
+        name="name"
+        placeholder="Enter your name"
+        required
+      /><input
+        id="email"
+        type="email"
+        name="email"
+        placeholder="Enter your email"
+        required
+      /><textarea
+        id="textarea"
+        name="textarea"
+        cols="20"
+        rows="5"
+        placeholder="Write your message here"
+        required
+      ></textarea
+      >
+      <button id="submit" type="submit">Send</button>
+    </form>
+  </div>
+  <div class="socialm">
+    <div class="insta">
+      <a href="https://www.instagram.com/shanu._.here/" target="_blank"
+        ><img src="./images/insta.png" alt=""
+      /></a>
+    </div>
+    <div class="youtube">
+      <a
+        href="https://www.youtube.com/channel/UCTAuzMkjYPMpXcP-u8pMsAA"
+        target="_blank"
+        ><img src="./images/yt.png" alt=""
+      /></a>
+    </div>
+    <div class="twitter">
+      <a href="https://twitter.com/Shadabk31452264" target="_blank"
+        ><img src="./images/twitter.png" alt=""
+      /></a>
+    </div>
+  </div>
+</section>
+<footer background-color="black">
+  <div class="boxlast">
+    <h1>&copy; Copyright 2021 by Shadab. All Rights Reserved.</h1>
+  </div>
+</footer>
+<script>
+  $(document).ready(function () {
+    // Add smooth scrolling to all links
+    $("a").on("click", function (event) {
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $("html, body").animate(
+          {
+            scrollTop: $(hash).offset().top,
+          },
+          800,
+          function () {
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          }
+        );
+      } // End if
+    });
+  });
+</script>

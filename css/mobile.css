@@ -1,0 +1,114 @@
+
+.boxes {
+    position: absolute;
+    top: 757px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1681px;
+    width: 100vw;
+    color: black;
+    background: white;
+    transition: all 0.5s ease-out;
+    flex-wrap: wrap;
+  }
+
+#box-1 {
+    position: absolute;
+    top: 70px;
+    left: 23px;
+    transition: all 0.5s ease-out;
+    height: 350px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+#box-2 {
+    position: absolute;
+    top: 450px;
+    left: 23px;
+    transition: all 0.5s ease-out;
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+#box-4 {
+    position: absolute;
+    top: 1260px;
+    left: 23px;
+    transition: all 0.5s ease-out;
+    height: 350px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+header::before{
+    background: url("../images/bg.jpg")no-repeat center center/cover;;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    width: 470px;
+    height: 650px;
+    
+}
+
+.boxes{
+    top: 736px;
+    width: 470px;
+}
+
+#about{
+    top: 500px;
+    width: 470px;
+}
+
+.contact h1{
+    top: -81px;
+    width: 470px;
+}
+
+.contact{
+    
+    width: 470px;
+}
+
+.boxlast h1{
+    width: 470px;
+}
+
+.contact::after{
+    top: -20px;
+}
+
+form {
+    top: -50px;
+    margin-left: 58px;
+    
+}
+
+.socialm{
+    margin-left: 16px;
+}
+
+#box-3{
+    left: 30px;
+}
